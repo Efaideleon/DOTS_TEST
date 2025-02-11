@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034c959f9ed54412bacc4ad404963b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
-  Id: 0
-  Color: 
-  CubePrefab: {fileID: 0}
+  Name: abel
+  Id: 3
+  MyColor: {r: 0, g: 1, b: 0.3755169, a: 1}
+  CubePrefab: {fileID: 6113144732058373990, guid: 0ddf12f63dac6466bb5baaf96467fef5, type: 3}
