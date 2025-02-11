@@ -127,9 +127,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5283240687826758442, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
+      propertyPath: Id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283240687826758442, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
+      propertyPath: Name
+      value: abel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283240687826758442, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
+      propertyPath: Color
+      value: green
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283240687826758442, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
+      propertyPath: CubePrefab
+      value: 
+      objectReference: {fileID: 6113144732058373990, guid: 0ddf12f63dac6466bb5baaf96467fef5, type: 3}
     - target: {fileID: 6543796644105089133, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
       propertyPath: m_Name
       value: Config
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543796644105089133, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7321042693457610348, guid: b8ddb4926f9004de8ab3466cf657db4d, type: 3}
       propertyPath: m_LocalPosition.x
