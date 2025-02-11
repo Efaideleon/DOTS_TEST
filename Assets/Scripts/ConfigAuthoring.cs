@@ -22,16 +22,17 @@ public class ConfigAuthoring : MonoBehaviour
                 Name = authoring.Name,
                 Id = authoring.Id,
                 Color = authoring.Color,
-                cubePrefab = GetEntity(authoring.CubePrefab, TransformUsageFlags.Dynamic),
+                CubePrefab = GetEntity(authoring.CubePrefab, TransformUsageFlags.Dynamic),
             });
         }
     }
 
-    public struct Config : IComponentData
-    {
-        public FixedString64Bytes Name;
-        public int Id;
-        public FixedString64Bytes Color;
-        public Entity cubePrefab;
-    }
+}
+
+public struct Config : IComponentData
+{
+    public FixedString64Bytes Name;
+    public int Id;
+    public FixedString64Bytes Color;
+    public Entity CubePrefab;
 }
